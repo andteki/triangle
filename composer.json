@@ -1,0 +1,23 @@
+{
+    "name": "janos/haromszog",
+    "description": "Háromszog számítások",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shape\\": "src/Shape"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nagy Janos",
+            "email": "janos@zold.lan"
+        }
+    ],
+    "minimum-stability": "dev",
+    "scripts": {
+        "test": ["echo Teszt indul", "php tests/testTriangle.php"]
+    },
+    "require-dev": {
+        "phpunit/php-timer": "^5.0"
+    }
+}
